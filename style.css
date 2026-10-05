@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f9f9; }
+header { background: #006400; color: white; text-align: center; padding: 20px; font-size: 26px; font-weight: bold; }
+.container { max-width: 750px; margin: 30px auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.12); }
+h2, h3 { color: #006400; }
+label { display: block; margin: 14px 0 6px; font-weight: bold; }
+input, select { width: 100%; padding: 11px; border: 1px solid #ccc; border-radius: 6px; font-size: 15px; }
+button { width: 100%; padding: 12px; margin-top: 12px; background: #006400; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
+button:hover { background: #228b22; }
+.success { color: green; font-weight: bold; margin-top: 15px; }
+.error { color: red; font-weight: bold; margin-top: 15px; }
+.hidden { display: none; }
+.table-wrapper { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; min-width: 700px; }
+th, td { border: 1px solid #ccc; padding: 9px; text-align: center; font-size: 14px; }
+th { background: #e0ffe0; }
+.receipt { margin-top: 20px; padding: 20px; border: 2px dashed #006400; background: #f5fff5; border-radius: 8px; }
+.booking-id { font-size: 20px; font-weight: bold; color: #006400; }
+@media (max-width: 600px) {.container { margin: 15px; padding: 18px; } header { font-size: 21px; } }
